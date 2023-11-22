@@ -50,7 +50,7 @@ const Register = () => {
          
               <p>
               <button
-  onClick={(e) => loginWithRedirect({ authorizationParams: { redirect_uri: "http://localhost:3000/news" } })}
+  // onClick={(e) => loginWithRedirect({ authorizationParams: { redirect_uri: "http://localhost:3000/news" } })}
   style={{
     backgroundColor: '#4caf50', // Green
     color: 'white',
