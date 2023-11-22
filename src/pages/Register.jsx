@@ -3,13 +3,13 @@ import Helmet from '../components/Helmet/Helmet';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
-import { useAuth0 } from "@auth0/auth0-react";
+// import { useAuth0 } from "@auth0/auth0-react";
 const Register = () => {
   const registerNameRef = useRef();
   const registerPasswordRef = useRef();
   const registerEmailRef = useRef();
-  const {user,loginWithRedirect} =useAuth0();
-  console.log("Current User",user)
+  // const {user,loginWithRedirect} =useAuth0();
+  // console.log("Current User",user)
   const submitHandler = (e) => {
     e.preventDefault();
   };
